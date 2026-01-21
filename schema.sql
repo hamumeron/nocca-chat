@@ -1,0 +1,13 @@
+CREATE TABLE users (
+id TEXT PRIMARY KEY,
+display_name TEXT
+);
+
+
+CREATE TABLE messages (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+room TEXT,
+sender TEXT,
+content TEXT,
+created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
