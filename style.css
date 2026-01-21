@@ -1,0 +1,10 @@
+body{margin:0;display:flex;height:100vh;background:#313338;color:#fff;font-family:sans-serif}
+.sidebar{width:240px;background:#1e1f22;display:flex;flex-direction:column}
+.logo{padding:14px;font-size:20px;font-weight:bold}
+.tabs button{background:none;border:none;color:#ccc;padding:10px;text-align:left}
+.tabs button:hover{background:#2b2d31}
+.me{margin-top:auto;padding:10px;background:#232428}
+.chat{flex:1;display:flex;flex-direction:column}
+#messages{flex:1;overflow:auto;padding:10px}
+.input{display:flex;padding:10px;background:#383a40}
+.input input{flex:1}
