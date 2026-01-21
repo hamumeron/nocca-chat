@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Nocca</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sidebar">
+<div class="logo">Nocca</div>
+<div class="tabs">
+<button onclick="join('dm')">個人チャット</button>
+<button onclick="join('group')">グループ</button>
+<button onclick="join('public')">オープン</button>
+</div>
+<div class="me">👤 <span id="me"></span></div>
+</div>
+<div class="chat">
+<div id="messages"></div>
+<div class="input">
+<input id="msg" placeholder="メッセージ">
+<button onclick="send()">送信</button>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
